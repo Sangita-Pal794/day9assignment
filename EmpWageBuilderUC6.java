@@ -12,7 +12,7 @@ int Totalempwage = 0;
 int totalworkingdays = 0;
 while(totalemphrs <= MAX_HRS_IN_MONTH && totalworkingdays < NUM_OF_WORKING_DAYS){
 		totalworkingdays++;
-double  empcheck = Math.floor(Math.random() % 10) % 3;
+double  empcheck = Math.floor(Math.random() * 10) % 3;
 
 switch ((int)empcheck){
   case IS_PART_TIME:
