@@ -5,7 +5,7 @@ public static final int EMP_RATE_PER_HOUR = 20;
 public static void main(String[] agrs){
 int emphrs = 0;
 int empwage = 0;
-double  empcheck = Math.floor(Math.random() % 10) % 3;
+double  empcheck = Math.floor(Math.random() * 10) % 3;
 
 switch ((int)empcheck){
   case IS_PART_TIME:
