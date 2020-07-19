@@ -8,7 +8,7 @@ int emphrs = 0;
 int empwage = 0;
 int Totalempwage = 0;
 for(int day=0;day<=NUM_OF_WORKING_DAYS;day++){
-double  empcheck = Math.floor(Math.random() % 10) % 3;
+double  empcheck = Math.floor(Math.random() * 10) % 3;
 
 switch ((int)empcheck){
   case IS_PART_TIME:
