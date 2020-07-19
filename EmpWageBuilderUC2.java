@@ -8,7 +8,7 @@ public static int computeWage(){
 
 int emphrs = 0;
 int empwage = 0; 
-double empcheck = Math.floor(Math.random() % 10) % 2;
+double empcheck = Math.floor(Math.random() * 10) % 2;
 
 if(empcheck == IS_FULL_TIME)
 	emphrs = 8;
